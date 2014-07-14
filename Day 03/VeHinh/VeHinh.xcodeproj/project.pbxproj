@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5772506419533FB000658448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772506319533FB000658448 /* Foundation.framework */; };
+		5772506619533FB000658448 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772506519533FB000658448 /* CoreGraphics.framework */; };
+		5772506819533FB000658448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772506719533FB000658448 /* UIKit.framework */; };
+		5772506E19533FB000658448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5772506C19533FB000658448 /* InfoPlist.strings */; };
+		5772507019533FB000658448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772506F19533FB000658448 /* main.m */; };
+		5772507419533FB000658448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772507319533FB000658448 /* AppDelegate.m */; };
+		5772507719533FB000658448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5772507519533FB000658448 /* Main.storyboard */; };
+		5772507A19533FB000658448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772507919533FB000658448 /* ViewController.m */; };
+		5772507C19533FB000658448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5772507B19533FB000658448 /* Images.xcassets */; };
+		5772508319533FB000658448 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772508219533FB000658448 /* XCTest.framework */; };
+		5772508419533FB000658448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772506319533FB000658448 /* Foundation.framework */; };
+		5772508519533FB000658448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5772506719533FB000658448 /* UIKit.framework */; };
+		5772508D19533FB000658448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5772508B19533FB000658448 /* InfoPlist.strings */; };
+		5772508F19533FB000658448 /* VeHinhTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772508E19533FB000658448 /* VeHinhTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5772508619533FB000658448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5772505819533FB000658448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5772505F19533FB000658448;
+			remoteInfo = VeHinh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5772506019533FB000658448 /* VeHinh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeHinh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772506319533FB000658448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5772506519533FB000658448 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5772506719533FB000658448 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5772506B19533FB000658448 /* VeHinh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeHinh-Info.plist"; sourceTree = "<group>"; };
+		5772506D19533FB000658448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5772506F19533FB000658448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5772507119533FB000658448 /* VeHinh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VeHinh-Prefix.pch"; sourceTree = "<group>"; };
+		5772507219533FB000658448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5772507319533FB000658448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5772507619533FB000658448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5772507819533FB000658448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5772507919533FB000658448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5772507B19533FB000658448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5772508119533FB000658448 /* VeHinhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeHinhTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772508219533FB000658448 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5772508A19533FB000658448 /* VeHinhTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeHinhTests-Info.plist"; sourceTree = "<group>"; };
+		5772508C19533FB000658448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5772508E19533FB000658448 /* VeHinhTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VeHinhTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5772505D19533FB000658448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772506619533FB000658448 /* CoreGraphics.framework in Frameworks */,
+				5772506819533FB000658448 /* UIKit.framework in Frameworks */,
+				5772506419533FB000658448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772507E19533FB000658448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772508319533FB000658448 /* XCTest.framework in Frameworks */,
+				5772508519533FB000658448 /* UIKit.framework in Frameworks */,
+				5772508419533FB000658448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5772505719533FB000658448 = {
+			isa = PBXGroup;
+			children = (
+				5772506919533FB000658448 /* VeHinh */,
+				5772508819533FB000658448 /* VeHinhTests */,
+				5772506219533FB000658448 /* Frameworks */,
+				5772506119533FB000658448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5772506119533FB000658448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5772506019533FB000658448 /* VeHinh.app */,
+				5772508119533FB000658448 /* VeHinhTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5772506219533FB000658448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5772506319533FB000658448 /* Foundation.framework */,
+				5772506519533FB000658448 /* CoreGraphics.framework */,
+				5772506719533FB000658448 /* UIKit.framework */,
+				5772508219533FB000658448 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5772506919533FB000658448 /* VeHinh */ = {
+			isa = PBXGroup;
+			children = (
+				5772507219533FB000658448 /* AppDelegate.h */,
+				5772507319533FB000658448 /* AppDelegate.m */,
+				5772507519533FB000658448 /* Main.storyboard */,
+				5772507819533FB000658448 /* ViewController.h */,
+				5772507919533FB000658448 /* ViewController.m */,
+				5772507B19533FB000658448 /* Images.xcassets */,
+				5772506A19533FB000658448 /* Supporting Files */,
+			);
+			path = VeHinh;
+			sourceTree = "<group>";
+		};
+		5772506A19533FB000658448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5772506B19533FB000658448 /* VeHinh-Info.plist */,
+				5772506C19533FB000658448 /* InfoPlist.strings */,
+				5772506F19533FB000658448 /* main.m */,
+				5772507119533FB000658448 /* VeHinh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5772508819533FB000658448 /* VeHinhTests */ = {
+			isa = PBXGroup;
+			children = (
+				5772508E19533FB000658448 /* VeHinhTests.m */,
+				5772508919533FB000658448 /* Supporting Files */,
+			);
+			path = VeHinhTests;
+			sourceTree = "<group>";
+		};
+		5772508919533FB000658448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5772508A19533FB000658448 /* VeHinhTests-Info.plist */,
+				5772508B19533FB000658448 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5772505F19533FB000658448 /* VeHinh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5772509219533FB000658448 /* Build configuration list for PBXNativeTarget "VeHinh" */;
+			buildPhases = (
+				5772505C19533FB000658448 /* Sources */,
+				5772505D19533FB000658448 /* Frameworks */,
+				5772505E19533FB000658448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeHinh;
+			productName = VeHinh;
+			productReference = 5772506019533FB000658448 /* VeHinh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5772508019533FB000658448 /* VeHinhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5772509519533FB000658448 /* Build configuration list for PBXNativeTarget "VeHinhTests" */;
+			buildPhases = (
+				5772507D19533FB000658448 /* Sources */,
+				5772507E19533FB000658448 /* Frameworks */,
+				5772507F19533FB000658448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5772508719533FB000658448 /* PBXTargetDependency */,
+			);
+			name = VeHinhTests;
+			productName = VeHinhTests;
+			productReference = 5772508119533FB000658448 /* VeHinhTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5772505819533FB000658448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SonDT;
+				TargetAttributes = {
+					5772508019533FB000658448 = {
+						TestTargetID = 5772505F19533FB000658448;
+					};
+				};
+			};
+			buildConfigurationList = 5772505B19533FB000658448 /* Build configuration list for PBXProject "VeHinh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5772505719533FB000658448;
+			productRefGroup = 5772506119533FB000658448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5772505F19533FB000658448 /* VeHinh */,
+				5772508019533FB000658448 /* VeHinhTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5772505E19533FB000658448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772507C19533FB000658448 /* Images.xcassets in Resources */,
+				5772506E19533FB000658448 /* InfoPlist.strings in Resources */,
+				5772507719533FB000658448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772507F19533FB000658448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772508D19533FB000658448 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5772505C19533FB000658448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772507A19533FB000658448 /* ViewController.m in Sources */,
+				5772507419533FB000658448 /* AppDelegate.m in Sources */,
+				5772507019533FB000658448 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5772507D19533FB000658448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772508F19533FB000658448 /* VeHinhTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5772508719533FB000658448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5772505F19533FB000658448 /* VeHinh */;
+			targetProxy = 5772508619533FB000658448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5772506C19533FB000658448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5772506D19533FB000658448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5772507519533FB000658448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5772507619533FB000658448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5772508B19533FB000658448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5772508C19533FB000658448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5772509019533FB000658448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5772509119533FB000658448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5772509319533FB000658448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeHinh/VeHinh-Prefix.pch";
+				INFOPLIST_FILE = "VeHinh/VeHinh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5772509419533FB000658448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeHinh/VeHinh-Prefix.pch";
+				INFOPLIST_FILE = "VeHinh/VeHinh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5772509619533FB000658448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VeHinh.app/VeHinh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeHinh/VeHinh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VeHinhTests/VeHinhTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5772509719533FB000658448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VeHinh.app/VeHinh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeHinh/VeHinh-Prefix.pch";
+				INFOPLIST_FILE = "VeHinhTests/VeHinhTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5772505B19533FB000658448 /* Build configuration list for PBXProject "VeHinh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772509019533FB000658448 /* Debug */,
+				5772509119533FB000658448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5772509219533FB000658448 /* Build configuration list for PBXNativeTarget "VeHinh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772509319533FB000658448 /* Debug */,
+				5772509419533FB000658448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5772509519533FB000658448 /* Build configuration list for PBXNativeTarget "VeHinhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772509619533FB000658448 /* Debug */,
+				5772509719533FB000658448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5772505819533FB000658448 /* Project object */;
+}
