@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Basic</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>row</key>
+				<string>Fill Color</string>
+				<key>viewclass</key>
+				<string>ViewFillColor</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Basic Line</string>
+				<key>viewclass</key>
+				<string>ViewDrawLineBasic</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Basic Rectangle</string>
+				<key>viewclass</key>
+				<string>ViewBasicRectangle</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Path</string>
+				<key>viewclass</key>
+				<string>ViewBasicPath</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Draw Line</string>
+				<key>viewclass</key>
+				<string>ViewDrawLineByTap</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Draw Bezier 1</string>
+				<key>viewclass</key>
+				<string>ViewDrawArc</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Draw Bezier 2</string>
+				<key>viewclass</key>
+				<string>ViewDrawBezier</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Fill a path</string>
+				<key>viewclass</key>
+				<string>ViewFillPath</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Basic Text</string>
+				<key>viewclass</key>
+				<string>ViewDrawBasicText</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Gradient Rounded Rect</string>
+				<key>viewclass</key>
+				<string>ViewGradientRoundedRect</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Intermediate</string>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>row</key>
+				<string>Ring Chart</string>
+				<key>viewclass</key>
+				<string>RingChartView</string>
+			</dict>
+			<dict>
+				<key>row</key>
+				<string>Stock Chart</string>
+				<key>viewclass</key>
+				<string>StockChartView</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
